@@ -1,13 +1,13 @@
 export const Sidebar = () => {
     return (
         <div style={{ width: "400px", border: "2px solid gray"}}>
-            <a href="dummy">TOP</a>
+            <a href="top">TOP</a>
             <br />
             <br />
-            <a href="dummy">MyPage</a>
+            <a href="mypage">MyPage</a>
             <br />
             <br />
-            <a href="dummy">Terms of Use</a>
+            <a href="termsofuse">Terms of Use</a>
         </div>
     );
 }
