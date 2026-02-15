@@ -6,6 +6,8 @@ type Props = {
 }
 
 export const TaskList = ({ taskList }: Props) => {
+    // useDeferredValueはstartTransitionと同様に更新を遅延させるためのフック
+    // 使い分けは、コンポーネント内で更新を遅延させたい場合はuseDeferredValue、同じファイル内で更新を遅延させたりisPandingを使用したい場合はuseTransitionを使用する
     const deferredTaskList = useDeferredValue(taskList);
     return (
         <>
