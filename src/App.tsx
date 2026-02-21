@@ -1,24 +1,12 @@
-import { Suspense } from 'react';
-import './App.css';
-import { AutoBatchEventHandler } from './components/AutoBatchEventHandler';
-import { AutoBatchOther } from './components/AutoBatchOther';
-import { ReactQuery } from './components/ReactQuery';
-import { Transition } from './components/Transition';
-import { ErrorBoundary } from 'react-error-boundary';
+import { BrowserRouter } from "react-router-dom";
+import { Router } from "./components/router/Router";
 
 function App() {
   return (
     <div className="App">
-      <AutoBatchEventHandler />
-      <AutoBatchOther />
-      <hr />
-      <Transition />
-      <hr />
-      <ErrorBoundary fallback={<p>Error</p>}>
-        <Suspense fallback={<p>Loading</p>}>
-          <ReactQuery />
-        </Suspense>
-      </ErrorBoundary>
+      <BrowserRouter>
+        <Router />
+      </BrowserRouter>
     </div>
   );
 }

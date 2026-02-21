@@ -1,4 +1,4 @@
-import { Sidebar } from "./Sidebar";
+import { Sidebar } from "../Sidebar";
 import { AlbumList } from "./AlbumList";
 import { TodoList } from "./TodoList";
 import { Suspense, useState, useTransition } from "react";

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Avatar } from "./Avatar";
+import { Avatar } from "../Avatar";
 import { TaskList } from "./TaskList";
 
 export type Task = {
@@ -15,7 +15,7 @@ const member = {
 }
 
 const generateDummyTasks = (): Task[] => {
-    return Array(10000).fill("").map((_, index) => {
+    return Array(10).fill("").map((_, index) => {
         const addedIndex = index + 1;
         return {
             id: addedIndex,

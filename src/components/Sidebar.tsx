@@ -4,10 +4,16 @@ export const Sidebar = () => {
             <a href="top">TOP</a>
             <br />
             <br />
-            <a href="mypage">MyPage</a>
+            <a href="account-page">Account Page</a>
             <br />
             <br />
-            <a href="termsofuse">Terms of Use</a>
+            <a href="terms-of-use">Terms of Use</a>
+            <br />
+            <br />
+            <a href="transition">Transition</a>
+            <br />
+            <br />
+            <a href="react-query">React Query</a>
         </div>
     );
 }
