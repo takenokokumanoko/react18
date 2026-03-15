@@ -37,7 +37,7 @@ export const ReactQuery = () => {
     return (
         <div style={{ display: "flex", padding: "16px" }}>
             <Sidebar />
-            <div style={{ flexGrow: 1 }}>
+            <div style={{ flexGrow: 5 }}>
                 <button style={todoButtonStyle} onClick={() => onClickTabButton("todo")}>Todo</button>
                 <button style={albumButtonStyle} onClick={() => onClickTabButton("album")}>Album</button>
                 <ErrorBoundary fallback={<p>{selectedTab} Error</p>}>
