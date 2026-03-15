@@ -1,7 +1,12 @@
+import { AutoBatchEventHandler } from "../AutoBatchEventHandler";
+import { AutoBatchOther } from "../AutoBatchOther";
+
 export const Top = () => {
     return (
         <div>
-            <h1>Top</h1>
+            <AutoBatchEventHandler />
+            <AutoBatchOther />
+
         </div>
     );
 }
