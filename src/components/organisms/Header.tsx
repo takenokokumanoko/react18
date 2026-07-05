@@ -31,7 +31,7 @@ export const Header = memo(() => {
                     </Box>
                     <Box pr={4}>
                         <ChakraLink asChild color="white">
-                            <ReactLint to="/setting">Setting</ReactLint>
+                            <ReactLint to="/account-page">Account Setting</ReactLint>
                         </ChakraLink>
                     </Box>
                 </Flex>

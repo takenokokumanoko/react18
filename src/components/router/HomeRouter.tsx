@@ -7,7 +7,6 @@ import { Suspense } from "react";
 import { ReactQuery } from "../pages/ReactQuery";
 import { Page404 } from "../pages/Page404";
 import { UserManagement } from "../pages/UserManagement";
-import { Setting } from "../pages/Setting";
 
 // 記載されたエンドポイントが実行されたときにどのコンポーネントを表示するかを定義する（ルーティング）
 export const homeRouter = [
@@ -30,10 +29,6 @@ export const homeRouter = [
     {
         path: "/user-management",
         element: <UserManagement />
-    },
-    {
-        path: "/setting",
-        element: <Setting />
     },
     {
         path: "/react-query",
