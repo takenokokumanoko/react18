@@ -1,4 +1,3 @@
-import { Sidebar } from "../Sidebar";
 import { AlbumList } from "./AlbumList";
 import { TodoList } from "./TodoList";
 import { Suspense, useState, useTransition } from "react";
@@ -36,7 +35,6 @@ export const ReactQuery = () => {
 
     return (
         <div style={{ display: "flex", padding: "16px" }}>
-            <Sidebar />
             <div style={{ flexGrow: 5 }}>
                 <button style={todoButtonStyle} onClick={() => onClickTabButton("todo")}>Todo</button>
                 <button style={albumButtonStyle} onClick={() => onClickTabButton("album")}>Album</button>
